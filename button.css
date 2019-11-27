@@ -1,0 +1,64 @@
+.btn_position {
+	margin-top: 30px;
+	padding-left: 47%;
+}
+
+.contents-btn-set {
+	margin-top: 10px;
+	padding-left: 47%;
+}
+
+.btn_position_cart_settlement {
+	float: left;
+	width: 50%;
+}
+
+.btn_position_cart_settlement .btn {
+	margin-left: 30vw;
+}
+
+.btn_position_cart_delete {
+	float: right;;
+	width: 50%;
+}
+
+.btn_position_cart_delete .btn {
+	margin-left: 30vw;
+}
+
+.btn {
+	clear:both;
+ 	text-decoration:none;
+    border-radius:100px;
+    border: solid 1px #2D4408;
+    width: 90px;
+	height: 33px;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #398026;
+   	background: -webkit-gradient(linear , right top, left bottom, from(#94CB3A), to(#398026) );
+    background: -moz-linear-gradient(-90deg , #94CB3A , #398026);
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #8AA859;
+    cursor: pointer;
+    opacity: 0.5;
+    background: #94CB3A;
+    background: -webkit-gradient(linear, right top, left bottom, from(#398026), to(#94CB3A) );
+    background: -moz-linear-gradient(-90deg, #398026, #94CB3A);
+}
+
+.btn:active {
+	background: #398026;
+}
+
+.btn:disabled {
+    background-color: #86976B ;
+    border-color: #2D4408 ;
+    background: -webkit-gradient(linear, right top, left bottom, from(#86976B), to(#86976B) );
+    background: -moz-linear-gradient(-90deg, #86976B , #86976B);
+	opacity: 0.5;
+}
